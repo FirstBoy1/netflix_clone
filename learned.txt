@@ -1,0 +1,12 @@
+- tmdb key 
+- https://api.themoviedb.org/3/movie/550?api_key=19f84e11932abbc79e6d83f82d6d1045
+
+- react-youtube - component to add youtube videos
+- movie-trailer - to pass the name of youtube video and it's spit back video id
+
+browser api
+- new URL('https://www.youtube.com/watch?v=QsN18ZrBeL0&list=RDQsN18ZrBeL0&start_radio=1').search
+- // ?v=QsN18ZrBeL0&list=RDQsN18ZrBeL0&start_radio=1
+
+- let urlParams = new URLSearchParams('?v=QsN18ZrBeL0&list=RDQsN18ZrBeL0&start_radio=1');
+- urlParams.get('v') // QsN18ZrBeL0
